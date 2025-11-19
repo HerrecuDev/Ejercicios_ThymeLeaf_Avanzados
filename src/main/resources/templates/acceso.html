@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ventana Control de Acceso</title>
+
+    <link rel="stylesheet" th:heref ="@{/style.css}">
+</head>
+<body>
+   <div class="contenido">
+
+       <h2>Control de acceso</h2>
+
+       <div class="icono">
+           <img src="/img/lock.png" alt="candado" width="90">
+       </div>
+
+       <p>Acceso permitido a la aplicación.</p>
+
+       <form th:action="@{/piramide}" method="get">
+           <button type="submit" class="btn">ACEPTAR ✔</button>
+       </form>
+
+
+
+   </div>
+
+
+</body>
+</html>

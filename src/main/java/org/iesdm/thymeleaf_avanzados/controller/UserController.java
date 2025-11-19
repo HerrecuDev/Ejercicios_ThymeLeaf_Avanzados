@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 
-@RequestMapping("/")
+@RequestMapping("/registro")
 public class UserController {
 
-    @GetMapping("/")
+    @GetMapping("/registro")
     private String recogerDatosUsuario(Model model , @ModelAttribute Usuario usuario){
 
 
@@ -24,7 +24,7 @@ public class UserController {
         return "/registro";
     }
 
-    @PostMapping("/")
+    @PostMapping("/registro")
     private String controlRegistro(Model model , @ModelAttribute Usuario usuario){
 
 

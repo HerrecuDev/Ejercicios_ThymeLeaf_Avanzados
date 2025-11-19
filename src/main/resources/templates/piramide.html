@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pintar Piramide</title>
+
+    <link rel="stylesheet" th:heref ="@{/style.css}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Pinta una pirámide</h2>
+
+    <form th:action="@{/piramide}" method="post">
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" name="altura"requiered>
+
+        <button type="submit" class="btn">ACEPTAR ✔</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
+
+<label for="username">Usuario</label>
+<input type="text" id="username" th:field="*~{username}">required>

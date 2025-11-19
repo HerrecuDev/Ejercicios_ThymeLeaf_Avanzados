@@ -73,7 +73,7 @@ public class userDAOImplSQL implements UserDAO {
                 """;
 
 
-        jdbcTemplate.queryForObject(sql ,(ResultSet rs , int rowNum) -> User.builder()
+      return jdbcTemplate.queryForObject(sql ,(ResultSet rs , int rowNum) -> User.builder()
 
                 .id(rs.getLong("id"))
                 .username(rs.getString("username"))
@@ -81,6 +81,6 @@ public class userDAOImplSQL implements UserDAO {
                 .build()
                 ,username);
 
-        return username;
+
     }
 }

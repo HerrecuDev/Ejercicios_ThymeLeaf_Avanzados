@@ -1,0 +1,90 @@
+/* ======= Reset básico ======= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+/* ======= Fondo general ======= */
+body {
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* ======= Tarjetas ======= */
+.container {
+    background: white;
+    width: 350px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* ======= Inputs ======= */
+label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-bottom: 2px solid #009688;
+}
+
+/* ======= Botón ======= */
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: #009688;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #00796b;
+}
+
+/* ======= Icono central en la pantalla 2 ======= */
+.icono img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* ======= Resultado de la pirámide ======= */
+.resultado {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resultado img {
+    margin: 2px;
+}
