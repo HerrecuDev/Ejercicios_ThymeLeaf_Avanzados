@@ -1,0 +1,56 @@
+/* ======== ESTILOS GENERALES ======== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ======== CONTENEDOR PRINCIPAL ======== */
+.contenido {
+    background: white;
+    padding: 30px 40px;
+    width: 350px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* ======== TÍTULO ======== */
+.contenido h2 {
+    margin-bottom: 15px;
+    color: #2d3e50;
+}
+
+/* ======== ÍCONO ======== */
+.icono img {
+    margin: 10px 0 15px 0;
+}
+
+/* ======== TEXTO ======== */
+p {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
+/* ======== BOTÓN ======== */
+.btn {
+    padding: 12px;
+    width: 100%;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #357ac9;
+}
